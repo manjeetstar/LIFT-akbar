@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automation Test Demo]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.lift_co.tests.SearchTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="validate_Producer_searchFieldTest"/>
+          <include name="validate_GlobalField_searchTest"/>
+          <include name="createExtentTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.lift_co.tests.SearchTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Automation Test Demo] -->

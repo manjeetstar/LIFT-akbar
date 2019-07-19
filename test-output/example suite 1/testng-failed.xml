@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [example suite 1]">
+  <test thread-count="5" name="Regression suite 1(failed)">
+    <classes>
+      <class name="com.lift_co.tests.AgeGateTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="validate_Enter_Btn"/>
+          <include name="validate_AgeGate_Popup"/>
+          <include name="validate_AgeGate_form"/>
+        </methods>
+      </class> <!-- com.lift_co.tests.AgeGateTest -->
+    </classes>
+  </test> <!-- Regression suite 1(failed) -->
+</suite> <!-- Failed suite [example suite 1] -->

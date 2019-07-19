@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite 1]">
+  <test thread-count="5" name="Sanity Test(failed)">
+    <classes>
+      <class name="com.lift_co.tests.Rewards_Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="validate_myPoints_N_UnlockBtnOn_RewardsPage"/>
+        </methods>
+      </class> <!-- com.lift_co.tests.Rewards_Test -->
+    </classes>
+  </test> <!-- Sanity Test(failed) -->
+</suite> <!-- Failed suite [Suite 1] -->

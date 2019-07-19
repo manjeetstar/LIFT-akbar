@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="AgeGateTest(failed)">
+    <classes>
+      <class name="com.lift_co.tests.AgeGateTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="validate_Enter_Btn"/>
+          <include name="validate_AgeGate_Popup"/>
+        </methods>
+      </class> <!-- com.lift_co.tests.AgeGateTest -->
+    </classes>
+  </test> <!-- AgeGateTest(failed) -->
+  <test thread-count="5" name="LoginPageTest(failed)">
+    <classes>
+      <class name="com.lift_co.tests.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+          <include name="loginPageTitleTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.lift_co.tests.LoginPageTest -->
+    </classes>
+  </test> <!-- LoginPageTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
